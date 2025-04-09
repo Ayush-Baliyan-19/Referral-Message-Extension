@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Source of Opportunity</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Where did you find the opportunity?</h2>
+    
+    <div class="options">
+      <div class="option">
+        <input type="radio" id="jobPost" name="source" value="Job post">
+        <label for="jobPost">Job Post</label>
+      </div>
+      
+      <div class="option">
+        <input type="radio" id="linkedIn" name="source" value="LinkedIn post">
+        <label for="linkedIn">LinkedIn Post</label>
+      </div>
+      
+      <div class="option">
+        <input type="radio" id="companyWebsite" name="source" value="Company website">
+        <label for="companyWebsite">Company Website</label>
+      </div>
+      
+      <div class="option">
+        <input type="radio" id="other" name="source" value="Other">
+        <label for="other">Other</label>
+        <input type="text" id="otherSource" placeholder="Please specify" class="hidden">
+      </div>
+    </div>
+    
+    <div class="buttons">
+      <button id="nextBtn" class="btn primary-btn">Next</button>
+    </div>
+  </div>
+  
+  <script src="../js/page1.js"></script>
+</body>
+</html>

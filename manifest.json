@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Referral Request Generator",
+  "version": "1.0",
+  "description": "Generate personalized referral request messages for job applications",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["storage"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
