@@ -17,8 +17,7 @@ body {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-h1,
-h2 {
+h1, h2 {
   color: #333;
   margin-bottom: 15px;
   text-align: center;
@@ -83,12 +82,17 @@ label {
   color: #555;
 }
 
-input[type="text"] {
+input[type="text"], .select-input {
   width: 100%;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 14px;
+}
+
+.select-input {
+  height: 40px;
+  background-color: white;
 }
 
 .options {
@@ -111,8 +115,8 @@ input[type="text"] {
 }
 
 #otherSource {
-  margin-left: 10px;
-  width: 70%;
+  margin-top: 10px;
+  width: 100%;
 }
 
 .hidden {
