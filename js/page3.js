@@ -70,13 +70,13 @@ Ayush Baliyan`;
 
 Key Experiences & Achievements
 
-Groww | SDE Intern (Aug 2024 – Present)
+Groww | SDE Intern (Aug 2024 - Present)
 * Web Optimization: Improved SEO and UI/UX through server-side data fetching, CMS integration, and efficient API management. Built tools like the Stock Average Calculator and XIRR Calculator pages.
 * Playwright Testing: Refactored test cases to reduce test failures from 57 to 0, significantly boosting test reliability and coverage.
 * Backoffice Systems: Developed and enhanced payment gateway flows and omnichannel backoffice portals.
 * CI/CD Pipelines: Integrated tools like Argo, Helm, and GitHub Actions for streamlined deployments. Managed build images, PVC mounts, and secret handling.
 
-DOTS Delhi | SDE Intern (Jul 2023 – Aug 2024)
+DOTS Delhi | SDE Intern (Jul 2023 - Aug 2024)
 * Full-Stack Revamp: Transitioned a frontend-heavy project into a full-stack system, improving backend efficiency by 30% and increasing data analysis metrics from 0.313 to 2.71.
 * Dashboard Automation: Built an Automatic Dashboard Recommendation System that reduced manual effort by 50%, enhancing accessibility for 200+ users.
 
