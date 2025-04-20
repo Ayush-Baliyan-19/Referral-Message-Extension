@@ -151,4 +151,27 @@ Ayush Baliyan`;
             });
         }
     });
+
+    document.getElementById('exportPdfBtn').addEventListener('click', function () {
+        const messageElement = document.getElementById('generatedMessage');
+        const { jsPDF } = window.jspdf;
+
+        // Create a new jsPDF instance
+        const doc = new jsPDF();
+
+        // Add the content of the message to the PDF
+        doc.text(messageElement.value, 10, 10, { maxWidth: 180 });
+
+        // Retrieve company and role from storage
+        chrome.storage.local.get(['company', 'role'], function (result) {
+            const companyName = result.company || 'Company';
+            const roleName = result.role || 'Role';
+
+            // Generate the filename
+            const filename = `${companyName} - ${roleName} - Ayush_Cover_Letter.pdf`;
+
+            // Save the PDF with the generated filename
+            doc.save(filename);
+        });
+    });
 });
