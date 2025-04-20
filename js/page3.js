@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
 
             // Generate referral message
-            const referralTemplate = `Hi ${result.referrerName}👋,
+            const referralTemplate = `Hi ${result.referrerName},
 
 I hope you're doing well! I came across a ${result.role} opportunity at ${result.company} through ${sourceText} and would love to apply. I wanted to reach out to you for a referral for the role.
 
